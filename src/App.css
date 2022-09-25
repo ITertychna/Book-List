@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+body{
+  background-color: rgba(245, 245, 245, 0.329);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+}
+.book-container{
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.267);
+  max-width: 70%;
+  flex-wrap: wrap;
 }
-
-.App-link {
-  color: #61dafb;
+.book-text-container{
+  margin-left:70px;
+  max-width:60%
 }
+.h1-text{
+  letter-spacing: .4mm;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.h2-text{
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-style: italic;
+  flex-wrap: wrap;
+  
+}
+.h3-text{
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  margin-top: -25px;
+  flex-wrap: wrap;
+}
+.p-text{
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  flex-wrap: wrap;
+}
+.btn-add{
+  padding: 8px;
+  background-color: white;
+  border: 2px solid rgba(3, 48, 3, 0.495);
+  cursor: pointer;
+  font-family: 'Playfair Display', serif;
+  font-size: 13px;
+}
+.btn-add:hover{
+  background-color: rgba(238, 239, 235, 0.769);
+}
+.btn{
+  padding: 8px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
+  background-color: rgba(245, 245, 245, 0);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
