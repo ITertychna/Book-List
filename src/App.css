@@ -123,10 +123,6 @@ body{
 }
 
 @media all and (max-width:1000px){
-  .container-phone{
-    display: flex;
-    justify-content: flex-start;
-  }
   .book-container{
     padding: 2px;
     margin: 2px;
@@ -181,17 +177,5 @@ body{
     padding: 2px;
     width: 20%;
     font-size: 13px;
-  }
-}
-@media all and (max-width:600px){
-  .container-phone{
-    display: flex;
-    justify-content: flex-start;
-  }
-  .book-container{
-    padding: 2px;
-    margin: 2px;
-    max-width: 45%;
-    flex-wrap: wrap;
   }
 }
