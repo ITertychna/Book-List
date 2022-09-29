@@ -156,6 +156,9 @@ body{
     font-size: 20px;
     padding: 2px;
   }
+  .btn-showMore{
+    font-size: 10px;
+  }
   .image-slides{
     width: 100px;
    
