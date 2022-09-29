@@ -54,7 +54,7 @@ function App() {
         <h2 className='h2-text'>{name}</h2>
         <h3 className='h3-text'>Author: {author}</h3>
         <p className='p-text'>{showText ? description : description.substring(0,100) + "..."}
-        <button onClick={ () => setShowText(!showText)}>{showText ? 'Show less' : 'Show more'}</button>
+        <button className='btn-showMore' onClick={ () => setShowText(!showText)}>{showText ? 'Show less' : 'Show more'}</button>
         </p>
         <button onClick={ () => updateLikes()} className='btn-add-like'>{addLikes} ♥</button>
         </div>
