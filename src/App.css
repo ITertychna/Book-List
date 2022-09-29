@@ -27,12 +27,14 @@ body{
   font-family: 'Playfair Display', serif;
   text-align: center;
   flex-wrap: wrap;
+  color: black;
 }
 .h2-text{
   font-family: 'Playfair Display', serif;
   font-size: 30px;
   font-style: italic;
   flex-wrap: wrap;
+  color: black;
   
 }
 .h3-text{
@@ -40,11 +42,21 @@ body{
   font-size: 14px;
   margin-top: -25px;
   flex-wrap: wrap;
+  color: black;
 }
 .p-text{
   font-family: 'Playfair Display', serif;
   font-size: 17px;
   flex-wrap: wrap;
+  color: black;
+}
+.btn-showMore{
+  font-family: 'Playfair Display', serif;
+  background-color: rgba(245, 245, 245, 0.329);
+  border: .2px solid rgba(156, 156, 156, 0.703);
+  font-size: 15px;
+  flex-wrap: wrap;
+  color: black;
 }
 .btn-add{
   padding: 8px;
@@ -53,6 +65,7 @@ body{
   cursor: pointer;
   font-family: 'Playfair Display', serif;
   font-size: 13px;
+  color: black;
 }
 .btn-add-like{
   padding: 5px;
@@ -62,6 +75,7 @@ body{
   cursor: pointer;
   font-family: 'Playfair Display', serif;
   font-size: 16px;
+  color: black;
 }
 .btn-add:hover{
   background-color: rgba(238, 239, 235, 0.769);
@@ -74,6 +88,7 @@ body{
   font-family: 'Playfair Display', serif;
   font-size: 70px;
   background-color: rgba(245, 245, 245, 0);
+  color: black;
 
 }
 
@@ -101,6 +116,7 @@ body{
   cursor: pointer;
   font-family: 'Playfair Display', serif;
   font-size: 23px;
+  color: black;
 }
 .btn-add-list:hover{
   background-color: rgba(165, 42, 42, 0.176);
